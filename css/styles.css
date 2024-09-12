@@ -1,0 +1,7 @@
+footer p {
+    font-size: 0.8em;
+}
+
+footer a, footer p {
+    color: gray;
+}
