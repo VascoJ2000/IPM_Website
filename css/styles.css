@@ -16,8 +16,16 @@ footer p {
     width: 20%;
     border-radius: 5%;
     margin-top: 30px;
-    margin-left: 5%;
+    margin-left: auto;
     transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+}
+
+.pdf_box p{
+  margin: auto;
+  margin-left: 3%;
 }
 
 .pdf_box:hover{
@@ -25,18 +33,10 @@ footer p {
     transform: scale(1.2);
     background: rgba(225, 225, 225, .8);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-
-#pdf_link {
-  text-decoration: none;
-  color: black;
-}
-
-#pdf_link:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #pdf_icon {
   max-height: 90px;
+  margin-top: auto;
 }
