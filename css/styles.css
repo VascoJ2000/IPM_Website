@@ -36,7 +36,7 @@ footer p {
     text-decoration: none;
 }
 
-#pdf_icon {
+.pdf_icon {
   max-height: 90px;
   margin-top: auto;
 }
